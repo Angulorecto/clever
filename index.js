@@ -11,9 +11,11 @@ const __dirname = process.cwd();
 
 const githubroutes = [
   {"path": "/clever/", "page": "src/pages/index.html"},
+  {"path": "/clever/404", "page": "src/pages/404.html"},
 ]
 const otherroutes = [
   {"path": "/", "page": "src/pages/index.html"},
+  {"path": "/404", "page": "src/pages/404.html"},
 ]
 if (window.location.href = "https://angulorecto.github.io/clever/") {
   githubroutes.forEach((route) => {
