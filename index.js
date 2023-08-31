@@ -17,7 +17,7 @@ const otherroutes = [
   {"path": "/", "page": "src/pages/index.html"},
   {"path": "/404", "page": "src/pages/404.html"},
 ]
-if (window.location.href = "https://angulorecto.github.io/clever/") {
+if (window.location = "https://angulorecto.github.io/") {
   githubroutes.forEach((route) => {
     app.get(route.path, (req, res) => {
       res.sendFile(path.join(__dirname, "static", route.page));
